@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Fudge Cake (Medium)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked chocolate fudge cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Red Velvet Cake (Large)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked red velvet cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Black Forest Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked black forest cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Pineapple Cream Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked pineapple cream cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Lotus Biscoff Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked lotus biscoff cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Ferrero Rocher Cake (Regular)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked ferrero rocher cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Tiramisu Cake (Medium)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked tiramisu cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Blueberry Cheesecake (Large)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked blueberry cheesecake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Strawberry Shortcake (1 Pound)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked strawberry shortcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Coffee Walnut Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked coffee walnut cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Caramel Crunch Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked caramel crunch cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Oreo Mud Cake (Regular)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked oreo mud cake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Mango Mousse Cake (Medium)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked mango mousse cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Lemon Drizzle Cake (Large)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked lemon drizzle cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 15,
+    "name": "KitKat Gems Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked kitkat gems cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Chocolate Truffle Pastry (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked chocolate truffle pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Red Velvet Cupcake (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked red velvet cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Vanilla Bean Cupcake (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked vanilla bean cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Nutella Brownie (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked nutella brownie made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Chocolate Eclair (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked chocolate eclair made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Strawberry Tart (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked strawberry tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Lemon Meringue Tart (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked lemon meringue tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Apple Pie Slice (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked apple pie slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Cinnamon Roll (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked cinnamon roll made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Choco Lava Cake (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked choco lava cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Salted Caramel Cupcake (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked salted caramel cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Pistachio Baklava Pastry (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked pistachio baklava pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Whole Wheat Bread (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked whole wheat bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Milky White Bread (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked milky white bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Multigrain Loaf (Regular)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked multigrain loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Garlic Herb Focaccia (Medium)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked garlic herb focaccia made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 32,
+    "name": "French Baguette (Large)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked french baguette made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1597079910443-60c43fc4f729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Sourdough Loaf (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked sourdough loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Brioche Buns (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked brioche buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Burger Buns (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked burger buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Plain Croissant (Regular)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked plain croissant made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Chocolate Croissant (Medium)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked chocolate croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Almond Croissant (Large)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked almond croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Pita Bread (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked pita bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 40,
+    "name": "Choco Chip Cookies (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked choco chip cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Double Chocolate Cookies (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked double chocolate cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Oatmeal Raisin Cookies (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked oatmeal raisin cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Butter Shortbread (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked butter shortbread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Almond Biscotti (Large)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked almond biscotti made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1559620192-032c4bc4674e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Peanut Butter Cookies (1 Pound)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked peanut butter cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1598839950984-034f6dc7b495?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Coconut Macaroons (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked coconut macaroons made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Zeera Biscuits (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked zeera biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Nankhatai (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked nankhatai made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Jam Heart Biscuits (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked jam heart biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Glazed Donut (Large)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked glazed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 51,
+    "name": "Chocolate Frosted Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked chocolate frosted donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 52,
+    "name": "Boston Cream Donut (2 Pounds)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked boston cream donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1556913396-7a3c459ef68e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 53,
+    "name": "Strawberry Sprinkle Donut (Box of 6)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked strawberry sprinkle donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1631397833242-fc6213046352?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 54,
+    "name": "Lotus Stuffed Donut (Regular)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked lotus stuffed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 55,
+    "name": "Nutella Filled Donut (Medium)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked nutella filled donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 56,
+    "name": "Oreo Crumble Donut (Large)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked oreo crumble donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1533910534207-90f31029a78e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 57,
+    "name": "Cinnamon Sugar Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked cinnamon sugar donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 58,
+    "name": "Chicken Patties (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked chicken patties made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 59,
+    "name": "Vegetable Puff (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked vegetable puff made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 60,
+    "name": "Chicken Cheese Croissant (Regular)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked chicken cheese croissant made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 61,
+    "name": "Beef Qeema Samosa (Medium)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked beef qeema samosa made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 62,
+    "name": "Chicken Tikka Pizza Slice (Large)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked chicken tikka pizza slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 63,
+    "name": "Garlic Breadsticks (1 Pound)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked garlic breadsticks made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 64,
+    "name": "Spinach & Feta Quiche (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked spinach & feta quiche made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 65,
+    "name": "Chicken Bread Roll (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked chicken bread roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 66,
+    "name": "Mini Sausage Rolls (Regular)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked mini sausage rolls made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 67,
+    "name": "Chocolate Fudge Cake (Medium)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked chocolate fudge cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 68,
+    "name": "Red Velvet Cake (Large)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked red velvet cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 69,
+    "name": "Black Forest Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked black forest cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 70,
+    "name": "Pineapple Cream Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked pineapple cream cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 71,
+    "name": "Lotus Biscoff Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked lotus biscoff cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 72,
+    "name": "Ferrero Rocher Cake (Regular)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked ferrero rocher cake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 73,
+    "name": "Tiramisu Cake (Medium)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked tiramisu cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 74,
+    "name": "Blueberry Cheesecake (Large)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked blueberry cheesecake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 75,
+    "name": "Strawberry Shortcake (1 Pound)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked strawberry shortcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 76,
+    "name": "Coffee Walnut Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked coffee walnut cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 77,
+    "name": "Caramel Crunch Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked caramel crunch cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 78,
+    "name": "Oreo Mud Cake (Regular)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked oreo mud cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 79,
+    "name": "Mango Mousse Cake (Medium)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked mango mousse cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 80,
+    "name": "Lemon Drizzle Cake (Large)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked lemon drizzle cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 81,
+    "name": "KitKat Gems Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked kitkat gems cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 82,
+    "name": "Chocolate Truffle Pastry (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked chocolate truffle pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 83,
+    "name": "Red Velvet Cupcake (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked red velvet cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 84,
+    "name": "Vanilla Bean Cupcake (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked vanilla bean cupcake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 85,
+    "name": "Nutella Brownie (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked nutella brownie made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 86,
+    "name": "Chocolate Eclair (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked chocolate eclair made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 87,
+    "name": "Strawberry Tart (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked strawberry tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 88,
+    "name": "Lemon Meringue Tart (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked lemon meringue tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 89,
+    "name": "Apple Pie Slice (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked apple pie slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 90,
+    "name": "Cinnamon Roll (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked cinnamon roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 91,
+    "name": "Choco Lava Cake (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked choco lava cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 92,
+    "name": "Salted Caramel Cupcake (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked salted caramel cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 93,
+    "name": "Pistachio Baklava Pastry (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked pistachio baklava pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 94,
+    "name": "Whole Wheat Bread (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked whole wheat bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 95,
+    "name": "Milky White Bread (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked milky white bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 96,
+    "name": "Multigrain Loaf (Regular)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked multigrain loaf made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 97,
+    "name": "Garlic Herb Focaccia (Medium)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked garlic herb focaccia made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 98,
+    "name": "French Baguette (Large)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked french baguette made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1597079910443-60c43fc4f729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 99,
+    "name": "Sourdough Loaf (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked sourdough loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 100,
+    "name": "Brioche Buns (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked brioche buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 101,
+    "name": "Burger Buns (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked burger buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 102,
+    "name": "Plain Croissant (Regular)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked plain croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 103,
+    "name": "Chocolate Croissant (Medium)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked chocolate croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 104,
+    "name": "Almond Croissant (Large)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked almond croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 105,
+    "name": "Pita Bread (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked pita bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 106,
+    "name": "Choco Chip Cookies (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked choco chip cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 107,
+    "name": "Double Chocolate Cookies (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked double chocolate cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 108,
+    "name": "Oatmeal Raisin Cookies (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked oatmeal raisin cookies made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 109,
+    "name": "Butter Shortbread (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked butter shortbread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 110,
+    "name": "Almond Biscotti (Large)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked almond biscotti made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1559620192-032c4bc4674e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 111,
+    "name": "Peanut Butter Cookies (1 Pound)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked peanut butter cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1598839950984-034f6dc7b495?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 112,
+    "name": "Coconut Macaroons (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked coconut macaroons made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 113,
+    "name": "Zeera Biscuits (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked zeera biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 114,
+    "name": "Nankhatai (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked nankhatai made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 115,
+    "name": "Jam Heart Biscuits (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked jam heart biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 116,
+    "name": "Glazed Donut (Large)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked glazed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 117,
+    "name": "Chocolate Frosted Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked chocolate frosted donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 118,
+    "name": "Boston Cream Donut (2 Pounds)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked boston cream donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1556913396-7a3c459ef68e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 119,
+    "name": "Strawberry Sprinkle Donut (Box of 6)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked strawberry sprinkle donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1631397833242-fc6213046352?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 120,
+    "name": "Lotus Stuffed Donut (Regular)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked lotus stuffed donut made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 121,
+    "name": "Nutella Filled Donut (Medium)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked nutella filled donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 122,
+    "name": "Oreo Crumble Donut (Large)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked oreo crumble donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1533910534207-90f31029a78e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 123,
+    "name": "Cinnamon Sugar Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked cinnamon sugar donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 124,
+    "name": "Chicken Patties (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked chicken patties made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 125,
+    "name": "Vegetable Puff (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked vegetable puff made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 126,
+    "name": "Chicken Cheese Croissant (Regular)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked chicken cheese croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 127,
+    "name": "Beef Qeema Samosa (Medium)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked beef qeema samosa made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 128,
+    "name": "Chicken Tikka Pizza Slice (Large)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked chicken tikka pizza slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 129,
+    "name": "Garlic Breadsticks (1 Pound)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked garlic breadsticks made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 130,
+    "name": "Spinach & Feta Quiche (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked spinach & feta quiche made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 131,
+    "name": "Chicken Bread Roll (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked chicken bread roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 132,
+    "name": "Mini Sausage Rolls (Regular)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked mini sausage rolls made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 133,
+    "name": "Chocolate Fudge Cake (Medium)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked chocolate fudge cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 134,
+    "name": "Red Velvet Cake (Large)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked red velvet cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 135,
+    "name": "Black Forest Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked black forest cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 136,
+    "name": "Pineapple Cream Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked pineapple cream cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 137,
+    "name": "Lotus Biscoff Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked lotus biscoff cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 138,
+    "name": "Ferrero Rocher Cake (Regular)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked ferrero rocher cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 139,
+    "name": "Tiramisu Cake (Medium)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked tiramisu cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 140,
+    "name": "Blueberry Cheesecake (Large)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked blueberry cheesecake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 141,
+    "name": "Strawberry Shortcake (1 Pound)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked strawberry shortcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 142,
+    "name": "Coffee Walnut Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked coffee walnut cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 143,
+    "name": "Caramel Crunch Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked caramel crunch cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 144,
+    "name": "Oreo Mud Cake (Regular)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked oreo mud cake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 145,
+    "name": "Mango Mousse Cake (Medium)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked mango mousse cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 146,
+    "name": "Lemon Drizzle Cake (Large)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked lemon drizzle cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 147,
+    "name": "KitKat Gems Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked kitkat gems cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 148,
+    "name": "Chocolate Truffle Pastry (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked chocolate truffle pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 149,
+    "name": "Red Velvet Cupcake (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked red velvet cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 150,
+    "name": "Vanilla Bean Cupcake (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked vanilla bean cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 151,
+    "name": "Nutella Brownie (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked nutella brownie made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 152,
+    "name": "Chocolate Eclair (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked chocolate eclair made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 153,
+    "name": "Strawberry Tart (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked strawberry tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 154,
+    "name": "Lemon Meringue Tart (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked lemon meringue tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 155,
+    "name": "Apple Pie Slice (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked apple pie slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 156,
+    "name": "Cinnamon Roll (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked cinnamon roll made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 157,
+    "name": "Choco Lava Cake (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked choco lava cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 158,
+    "name": "Salted Caramel Cupcake (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked salted caramel cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 159,
+    "name": "Pistachio Baklava Pastry (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked pistachio baklava pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 160,
+    "name": "Whole Wheat Bread (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked whole wheat bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 161,
+    "name": "Milky White Bread (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked milky white bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 162,
+    "name": "Multigrain Loaf (Regular)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked multigrain loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 163,
+    "name": "Garlic Herb Focaccia (Medium)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked garlic herb focaccia made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 164,
+    "name": "French Baguette (Large)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked french baguette made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1597079910443-60c43fc4f729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 165,
+    "name": "Sourdough Loaf (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked sourdough loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 166,
+    "name": "Brioche Buns (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked brioche buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 167,
+    "name": "Burger Buns (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked burger buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 168,
+    "name": "Plain Croissant (Regular)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked plain croissant made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 169,
+    "name": "Chocolate Croissant (Medium)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked chocolate croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 170,
+    "name": "Almond Croissant (Large)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked almond croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 171,
+    "name": "Pita Bread (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked pita bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 172,
+    "name": "Choco Chip Cookies (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked choco chip cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 173,
+    "name": "Double Chocolate Cookies (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked double chocolate cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 174,
+    "name": "Oatmeal Raisin Cookies (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked oatmeal raisin cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 175,
+    "name": "Butter Shortbread (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked butter shortbread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 176,
+    "name": "Almond Biscotti (Large)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked almond biscotti made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1559620192-032c4bc4674e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 177,
+    "name": "Peanut Butter Cookies (1 Pound)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked peanut butter cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1598839950984-034f6dc7b495?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 178,
+    "name": "Coconut Macaroons (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked coconut macaroons made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 179,
+    "name": "Zeera Biscuits (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked zeera biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 180,
+    "name": "Nankhatai (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked nankhatai made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 181,
+    "name": "Jam Heart Biscuits (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked jam heart biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 182,
+    "name": "Glazed Donut (Large)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked glazed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 183,
+    "name": "Chocolate Frosted Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked chocolate frosted donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 184,
+    "name": "Boston Cream Donut (2 Pounds)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked boston cream donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1556913396-7a3c459ef68e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 185,
+    "name": "Strawberry Sprinkle Donut (Box of 6)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked strawberry sprinkle donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1631397833242-fc6213046352?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 186,
+    "name": "Lotus Stuffed Donut (Regular)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked lotus stuffed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 187,
+    "name": "Nutella Filled Donut (Medium)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked nutella filled donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 188,
+    "name": "Oreo Crumble Donut (Large)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked oreo crumble donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1533910534207-90f31029a78e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 189,
+    "name": "Cinnamon Sugar Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked cinnamon sugar donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 190,
+    "name": "Chicken Patties (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked chicken patties made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 191,
+    "name": "Vegetable Puff (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked vegetable puff made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 192,
+    "name": "Chicken Cheese Croissant (Regular)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked chicken cheese croissant made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 193,
+    "name": "Beef Qeema Samosa (Medium)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked beef qeema samosa made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 194,
+    "name": "Chicken Tikka Pizza Slice (Large)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked chicken tikka pizza slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 195,
+    "name": "Garlic Breadsticks (1 Pound)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked garlic breadsticks made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 196,
+    "name": "Spinach & Feta Quiche (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked spinach & feta quiche made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 197,
+    "name": "Chicken Bread Roll (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked chicken bread roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 198,
+    "name": "Mini Sausage Rolls (Regular)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked mini sausage rolls made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 199,
+    "name": "Chocolate Fudge Cake (Medium)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked chocolate fudge cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 200,
+    "name": "Red Velvet Cake (Large)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked red velvet cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 201,
+    "name": "Black Forest Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked black forest cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 202,
+    "name": "Pineapple Cream Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked pineapple cream cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 203,
+    "name": "Lotus Biscoff Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked lotus biscoff cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 204,
+    "name": "Ferrero Rocher Cake (Regular)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked ferrero rocher cake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 205,
+    "name": "Tiramisu Cake (Medium)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked tiramisu cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 206,
+    "name": "Blueberry Cheesecake (Large)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked blueberry cheesecake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 207,
+    "name": "Strawberry Shortcake (1 Pound)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked strawberry shortcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 208,
+    "name": "Coffee Walnut Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked coffee walnut cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 209,
+    "name": "Caramel Crunch Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked caramel crunch cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 210,
+    "name": "Oreo Mud Cake (Regular)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked oreo mud cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 211,
+    "name": "Mango Mousse Cake (Medium)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked mango mousse cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 212,
+    "name": "Lemon Drizzle Cake (Large)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked lemon drizzle cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 213,
+    "name": "KitKat Gems Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked kitkat gems cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 214,
+    "name": "Chocolate Truffle Pastry (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked chocolate truffle pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 215,
+    "name": "Red Velvet Cupcake (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked red velvet cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 216,
+    "name": "Vanilla Bean Cupcake (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked vanilla bean cupcake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 217,
+    "name": "Nutella Brownie (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked nutella brownie made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 218,
+    "name": "Chocolate Eclair (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked chocolate eclair made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 219,
+    "name": "Strawberry Tart (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked strawberry tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 220,
+    "name": "Lemon Meringue Tart (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked lemon meringue tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 221,
+    "name": "Apple Pie Slice (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked apple pie slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 222,
+    "name": "Cinnamon Roll (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked cinnamon roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 223,
+    "name": "Choco Lava Cake (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked choco lava cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 224,
+    "name": "Salted Caramel Cupcake (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked salted caramel cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 225,
+    "name": "Pistachio Baklava Pastry (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked pistachio baklava pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 226,
+    "name": "Whole Wheat Bread (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked whole wheat bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 227,
+    "name": "Milky White Bread (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked milky white bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 228,
+    "name": "Multigrain Loaf (Regular)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked multigrain loaf made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 229,
+    "name": "Garlic Herb Focaccia (Medium)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked garlic herb focaccia made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 230,
+    "name": "French Baguette (Large)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked french baguette made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1597079910443-60c43fc4f729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 231,
+    "name": "Sourdough Loaf (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked sourdough loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 232,
+    "name": "Brioche Buns (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked brioche buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 233,
+    "name": "Burger Buns (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked burger buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 234,
+    "name": "Plain Croissant (Regular)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked plain croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 235,
+    "name": "Chocolate Croissant (Medium)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked chocolate croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 236,
+    "name": "Almond Croissant (Large)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked almond croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 237,
+    "name": "Pita Bread (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked pita bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 238,
+    "name": "Choco Chip Cookies (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked choco chip cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 239,
+    "name": "Double Chocolate Cookies (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked double chocolate cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 240,
+    "name": "Oatmeal Raisin Cookies (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked oatmeal raisin cookies made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 241,
+    "name": "Butter Shortbread (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked butter shortbread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 242,
+    "name": "Almond Biscotti (Large)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked almond biscotti made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1559620192-032c4bc4674e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 243,
+    "name": "Peanut Butter Cookies (1 Pound)",
+    "category": "Cookies & Biscuits",
+    "price": 600,
+    "description": "Freshly baked peanut butter cookies made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1598839950984-034f6dc7b495?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 244,
+    "name": "Coconut Macaroons (2 Pounds)",
+    "category": "Cookies & Biscuits",
+    "price": 650,
+    "description": "Freshly baked coconut macaroons made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 245,
+    "name": "Zeera Biscuits (Box of 6)",
+    "category": "Cookies & Biscuits",
+    "price": 450,
+    "description": "Freshly baked zeera biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 246,
+    "name": "Nankhatai (Regular)",
+    "category": "Cookies & Biscuits",
+    "price": 500,
+    "description": "Freshly baked nankhatai made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 247,
+    "name": "Jam Heart Biscuits (Medium)",
+    "category": "Cookies & Biscuits",
+    "price": 550,
+    "description": "Freshly baked jam heart biscuits made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 248,
+    "name": "Glazed Donut (Large)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked glazed donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 249,
+    "name": "Chocolate Frosted Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked chocolate frosted donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 250,
+    "name": "Boston Cream Donut (2 Pounds)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked boston cream donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1556913396-7a3c459ef68e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 251,
+    "name": "Strawberry Sprinkle Donut (Box of 6)",
+    "category": "Donuts",
+    "price": 270,
+    "description": "Freshly baked strawberry sprinkle donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1631397833242-fc6213046352?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 252,
+    "name": "Lotus Stuffed Donut (Regular)",
+    "category": "Donuts",
+    "price": 320,
+    "description": "Freshly baked lotus stuffed donut made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 253,
+    "name": "Nutella Filled Donut (Medium)",
+    "category": "Donuts",
+    "price": 370,
+    "description": "Freshly baked nutella filled donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 254,
+    "name": "Oreo Crumble Donut (Large)",
+    "category": "Donuts",
+    "price": 420,
+    "description": "Freshly baked oreo crumble donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1533910534207-90f31029a78e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 255,
+    "name": "Cinnamon Sugar Donut (1 Pound)",
+    "category": "Donuts",
+    "price": 220,
+    "description": "Freshly baked cinnamon sugar donut made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 256,
+    "name": "Chicken Patties (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked chicken patties made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 257,
+    "name": "Vegetable Puff (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked vegetable puff made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 258,
+    "name": "Chicken Cheese Croissant (Regular)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked chicken cheese croissant made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 259,
+    "name": "Beef Qeema Samosa (Medium)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked beef qeema samosa made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 260,
+    "name": "Chicken Tikka Pizza Slice (Large)",
+    "category": "Savory & Snacks",
+    "price": 150,
+    "description": "Freshly baked chicken tikka pizza slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 261,
+    "name": "Garlic Breadsticks (1 Pound)",
+    "category": "Savory & Snacks",
+    "price": 200,
+    "description": "Freshly baked garlic breadsticks made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 262,
+    "name": "Spinach & Feta Quiche (2 Pounds)",
+    "category": "Savory & Snacks",
+    "price": 250,
+    "description": "Freshly baked spinach & feta quiche made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 263,
+    "name": "Chicken Bread Roll (Box of 6)",
+    "category": "Savory & Snacks",
+    "price": 300,
+    "description": "Freshly baked chicken bread roll made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 264,
+    "name": "Mini Sausage Rolls (Regular)",
+    "category": "Savory & Snacks",
+    "price": 350,
+    "description": "Freshly baked mini sausage rolls made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 265,
+    "name": "Chocolate Fudge Cake (Medium)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked chocolate fudge cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 266,
+    "name": "Red Velvet Cake (Large)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked red velvet cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 267,
+    "name": "Black Forest Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked black forest cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 268,
+    "name": "Pineapple Cream Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked pineapple cream cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 269,
+    "name": "Lotus Biscoff Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked lotus biscoff cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 270,
+    "name": "Ferrero Rocher Cake (Regular)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked ferrero rocher cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 271,
+    "name": "Tiramisu Cake (Medium)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked tiramisu cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 272,
+    "name": "Blueberry Cheesecake (Large)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked blueberry cheesecake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 273,
+    "name": "Strawberry Shortcake (1 Pound)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked strawberry shortcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 274,
+    "name": "Coffee Walnut Cake (2 Pounds)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked coffee walnut cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 275,
+    "name": "Caramel Crunch Cake (Box of 6)",
+    "category": "Cakes",
+    "price": 1500,
+    "description": "Freshly baked caramel crunch cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 276,
+    "name": "Oreo Mud Cake (Regular)",
+    "category": "Cakes",
+    "price": 1550,
+    "description": "Freshly baked oreo mud cake made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 277,
+    "name": "Mango Mousse Cake (Medium)",
+    "category": "Cakes",
+    "price": 1600,
+    "description": "Freshly baked mango mousse cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1519340333755-56e9c1d04579?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 278,
+    "name": "Lemon Drizzle Cake (Large)",
+    "category": "Cakes",
+    "price": 1650,
+    "description": "Freshly baked lemon drizzle cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 279,
+    "name": "KitKat Gems Cake (1 Pound)",
+    "category": "Cakes",
+    "price": 1700,
+    "description": "Freshly baked kitkat gems cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 280,
+    "name": "Chocolate Truffle Pastry (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked chocolate truffle pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 281,
+    "name": "Red Velvet Cupcake (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked red velvet cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 282,
+    "name": "Vanilla Bean Cupcake (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked vanilla bean cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 283,
+    "name": "Nutella Brownie (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked nutella brownie made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 284,
+    "name": "Chocolate Eclair (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked chocolate eclair made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1612203985729-70726954388c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 285,
+    "name": "Strawberry Tart (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked strawberry tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 286,
+    "name": "Lemon Meringue Tart (2 Pounds)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked lemon meringue tart made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 287,
+    "name": "Apple Pie Slice (Box of 6)",
+    "category": "Pastries & Cupcakes",
+    "price": 350,
+    "description": "Freshly baked apple pie slice made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 288,
+    "name": "Cinnamon Roll (Regular)",
+    "category": "Pastries & Cupcakes",
+    "price": 400,
+    "description": "Freshly baked cinnamon roll made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 289,
+    "name": "Choco Lava Cake (Medium)",
+    "category": "Pastries & Cupcakes",
+    "price": 450,
+    "description": "Freshly baked choco lava cake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 290,
+    "name": "Salted Caramel Cupcake (Large)",
+    "category": "Pastries & Cupcakes",
+    "price": 250,
+    "description": "Freshly baked salted caramel cupcake made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 291,
+    "name": "Pistachio Baklava Pastry (1 Pound)",
+    "category": "Pastries & Cupcakes",
+    "price": 300,
+    "description": "Freshly baked pistachio baklava pastry made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 292,
+    "name": "Whole Wheat Bread (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked whole wheat bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 293,
+    "name": "Milky White Bread (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked milky white bread made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 294,
+    "name": "Multigrain Loaf (Regular)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked multigrain loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 295,
+    "name": "Garlic Herb Focaccia (Medium)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked garlic herb focaccia made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 296,
+    "name": "French Baguette (Large)",
+    "category": "Breads & Buns",
+    "price": 230,
+    "description": "Freshly baked french baguette made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1597079910443-60c43fc4f729?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 297,
+    "name": "Sourdough Loaf (1 Pound)",
+    "category": "Breads & Buns",
+    "price": 280,
+    "description": "Freshly baked sourdough loaf made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 298,
+    "name": "Brioche Buns (2 Pounds)",
+    "category": "Breads & Buns",
+    "price": 330,
+    "description": "Freshly baked brioche buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 299,
+    "name": "Burger Buns (Box of 6)",
+    "category": "Breads & Buns",
+    "price": 380,
+    "description": "Freshly baked burger buns made with pure butter and premium ingredients.",
+    "inStock": true,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 300,
+    "name": "Plain Croissant (Regular)",
+    "category": "Breads & Buns",
+    "price": 180,
+    "description": "Freshly baked plain croissant made with pure butter and premium ingredients.",
+    "inStock": false,
+    "rating": 4,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80"
+  }
+]

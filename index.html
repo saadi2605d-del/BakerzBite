@@ -1,107 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BakerzBite</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Bakery Menu & Reviews</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #5c3a21;
+    }
+
+    /* Filter Buttons */
+    .filter-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px auto;
+      max-width: 900px;
+    }
+    .filter-btn {
+      padding: 10px 18px;
+      border: 2px solid #5c3a21;
+      background-color: white;
+      color: #5c3a21;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background-color: #5c3a21;
+      color: white;
+    }
+
+    /* Products Grid */
+    #products-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .card {
+      background: white;
+      border: 1px solid #ead8c8;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .category {
+      font-size: 12px;
+      color: #b5651d;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .card h3 {
+      margin: 5px 0;
+      font-size: 18px;
+    }
+    .card p {
+      font-size: 13px;
+      color: #666;
+    }
+    .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #5c3a21;
+      margin-top: 10px;
+    }
+
+    /* Feedback & Star Rating Section */
+    .feedback-section {
+      max-width: 600px;
+      margin: 60px auto 30px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      border: 1px solid #ead8c8;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #5c3a21;
+    }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d4bfa9;
+      border-radius: 8px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    /* Clickable Stars */
+    .star-rating {
+      display: flex;
+      gap: 8px;
+      font-size: 32px;
+      cursor: pointer;
+    }
+    .star {
+      color: #ccc;
+      transition: color 0.2s;
+    }
+    .star.selected {
+      color: #f5b301; /* Golden Star */
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #5c3a21;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background-color: #462b18;
+    }
+
+    /* Customer Reviews List */
+    .reviews-list {
+      max-width: 600px;
+      margin: 20px auto 50px;
+    }
+    .review-item {
+      background: white;
+      border: 1px solid #ead8c8;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 12px;
+    }
+    .review-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      color: #5c3a21;
+      margin-bottom: 5px;
+    }
+    .review-stars {
+      color: #f5b301;
+    }
+  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#" data-target="home">BakerzBite</a>
-    
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link active" href="#" data-target="home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="products">Products</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="merchandise">Merchandise</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="gallery">Gallery</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="offers">Offers</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="faqs">FAQs</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="contact">Contact Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" data-target="sitemap">Site Map</a></li>
-      </ul>
-      <span class="badge bg-warning text-dark ms-lg-3">Visitors: <span id="visitor-count">0</span></span>
+  <h1>🍰 Our Bakery Products</h1>
+
+  <!-- Category Buttons -->
+  <div class="filter-container">
+    <button class="filter-btn active" onclick="filterProducts('All', this)">All (300)</button>
+    <button class="filter-btn" onclick="filterProducts('Cakes', this)">Cakes</button>
+    <button class="filter-btn" onclick="filterProducts('Pastries & Cupcakes', this)">Pastries & Cupcakes</button>
+    <button class="filter-btn" onclick="filterProducts('Breads & Buns', this)">Breads & Buns</button>
+    <button class="filter-btn" onclick="filterProducts('Cookies & Biscuits', this)">Cookies & Biscuits</button>
+    <button class="filter-btn" onclick="filterProducts('Donuts', this)">Donuts</button>
+    <button class="filter-btn" onclick="filterProducts('Savory & Snacks', this)">Savory & Snacks</button>
+  </div>
+
+  <!-- Products Grid -->
+  <div id="products-container">Loading products...</div>
+
+  <!-- Customer Feedback Form -->
+  <div class="feedback-section">
+    <h2>⭐ Customer Feedback & Rating</h2>
+    <form id="feedback-form">
+      <div class="form-group">
+        <label for="customer-name">Aapka Naam:</label>
+        <input type="text" id="customer-name" placeholder="Apna naam likhein..." required>
+      </div>
+
+      <div class="form-group">
+        <label>Rating Dein (Stars par click karein):</label>
+        <div class="star-rating" id="star-container">
+          <span class="star" data-value="1">★</span>
+          <span class="star" data-value="2">★</span>
+          <span class="star" data-value="3">★</span>
+          <span class="star" data-value="4">★</span>
+          <span class="star" data-value="5">★</span>
+        </div>
+        <input type="hidden" id="rating-value" value="0">
+      </div>
+
+      <div class="form-group">
+        <label for="customer-review">Aapki Raye (Feedback):</label>
+        <textarea id="customer-review" rows="4" placeholder="Hamari bakery ke products ke baray mein apni raye likhein..." required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Feedback</button>
+    </form>
+  </div>
+
+  <!-- Submitted Reviews Yahan Show Honge -->
+  <div class="reviews-list" id="reviews-list">
+    <div class="review-item">
+      <div class="review-header">
+        <span>Ayesha Khan</span>
+        <span class="review-stars">★★★★★</span>
+      </div>
+      <p style="margin:0; font-size:14px; color:#555;">Chocolate Fudge Cake bohot hi fresh aur mazedaar tha!</p>
     </div>
   </div>
-</nav>
 
-<!-- Saare Pages (Sections) Ek Hi Jagah -->
-<main class="container my-4 pb-5">
-    <section id="home" class="page-section">
-        <h2>Welcome to BakerzBite</h2>
-        <p>Home section yahan aayega...</p>
-    </section>
+  <script>
+    let allProducts = [];
 
-    <section id="products" class="page-section d-none">
-        <h2>Our Bakery Products</h2>
-        <!-- Test Card (Check karne ke liye ke Pop-up khulta hai ya nahi) -->
-        <div class="card mt-3" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Chocolate Fudge Cake</h5>
-                <p class="card-text">Rs. 1500</p>
-                <button class="btn btn-danger view-product-btn" 
-                    data-name="Chocolate Fudge Cake" 
-                    data-price="Rs. 1500" 
-                    data-img="https://via.placeholder.com/300x200?text=Chocolate+Cake" 
-                    data-desc="Rich and moist dark chocolate cake." 
-                    data-ingredients="Real Butter, Unbleached Flour, Belgian Cocoa, Fresh Cream, Eggs.">
-                    View Details
-                </button>
-            </div>
+    const categoryPhotos = {
+      "Cakes": [
+        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=600&q=80"
+      ],
+      "Pastries & Cupcakes": [
+        "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=600&q=80"
+      ],
+      "Breads & Buns": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=600&q=80"
+      ],
+      "Cookies & Biscuits": [
+        "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+      ],
+      "Donuts": [
+        "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1631397833242-fc6213046352?auto=format&fit=crop&w=600&q=80"
+      ],
+      "Savory & Snacks": [
+        "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+      ]
+    };
+
+    // Products Load Karna
+    fetch('./data.json')
+      .then(response => response.json())
+      .then(data => {
+        allProducts = data;
+        displayProducts(allProducts);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('products-container').innerHTML = 
+          '<p style="color:red; text-align:center;">Data load nahi ho saka. Live Server use karein!</p>';
+      });
+
+    function displayProducts(items) {
+      const container = document.getElementById('products-container');
+      container.innerHTML = '';
+
+      items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const photosList = categoryPhotos[item.category] || categoryPhotos["Cakes"];
+        const safeImage = photosList[item.id % photosList.length];
+
+        card.innerHTML = `
+          <img src="${safeImage}" alt="${item.name}" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80';">
+          <div class="category">${item.category}</div>
+          <h3>${item.name}</h3>
+          <p>${item.description}</p>
+          <div class="price">Rs. ${item.price}</div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function filterProducts(categoryName, clickedButton) {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      clickedButton.classList.add('active');
+
+      if (categoryName === 'All') {
+        displayProducts(allProducts);
+      } else {
+        const filtered = allProducts.filter(product => product.category === categoryName);
+        displayProducts(filtered);
+      }
+    }
+
+    // --- Star Rating aur Feedback Form Logic ---
+    const stars = document.querySelectorAll('.star');
+    const ratingInput = document.getElementById('rating-value');
+
+    stars.forEach(star => {
+      star.addEventListener('click', () => {
+        const selectedRating = star.getAttribute('data-value');
+        ratingInput.value = selectedRating;
+
+        // Stars ka rang golden karna
+        stars.forEach(s => {
+          if (s.getAttribute('data-value') <= selectedRating) {
+            s.classList.add('selected');
+          } else {
+            s.classList.remove('selected');
+          }
+        });
+      });
+    });
+
+    // Form Submit Hone Par Review Neeche Add Karna
+    document.getElementById('feedback-form').addEventListener('submit', function(e) {
+      e.preventDefault(); // Page reload hone se rokna
+
+      const name = document.getElementById('customer-name').value;
+      const rating = Number(ratingInput.value);
+      const reviewText = document.getElementById('customer-review').value;
+
+      if (rating === 0) {
+        alert("Meherbani karke pehle stars select karein!");
+        return;
+      }
+
+      const goldenStars = '★'.repeat(rating) + '☆'.repeat(5 - rating);
+
+      const newReview = document.createElement('div');
+      newReview.className = 'review-item';
+      newReview.innerHTML = `
+        <div class="review-header">
+          <span>${name}</span>
+          <span class="review-stars">${goldenStars}</span>
         </div>
-    </section>
+        <p style="margin:0; font-size:14px; color:#555;">${reviewText}</p>
+      `;
 
-    <section id="merchandise" class="page-section d-none"><h2>Merchandise</h2><p>Mugs, Bags, Trays yahan aayenge...</p></section>
-    <section id="gallery" class="page-section d-none"><h2>Gallery</h2><p>Bandah 2 yahan tasveerein lagayega...</p></section>
-    <section id="offers" class="page-section d-none"><h2>Special Offers</h2><p>Discounts aur deals...</p></section>
-    <section id="about" class="page-section d-none"><h2>About Us</h2><p>Bandah 4 yahan text dalega...</p></section>
-    <section id="faqs" class="page-section d-none"><h2>FAQs</h2><p>Sawal jawab...</p></section>
-    <section id="contact" class="page-section d-none"><h2>Contact Us</h2><p>Pata, phone, aur feedback form...</p></section>
-    <section id="sitemap" class="page-section d-none"><h2>Site Map</h2><p>Website ke saare links...</p></section>
-</main>
+      // Naya review sabse upar lagana
+      document.getElementById('reviews-list').prepend(newReview);
 
-<!-- Neeche Chalne Wali Patti (Scrolling Ticker) -->
-<div class="bottom-ticker bg-dark text-white py-2 fixed-bottom">
-    <div class="ticker-text" id="ticker-content">
-        Loading Date, Time & Location...
-    </div>
-</div>
+      // Form reset karna
+      this.reset();
+      ratingInput.value = 0;
+      stars.forEach(s => s.classList.remove('selected'));
+    });
+  </script>
 
-<!-- Product Details Pop-up (Modal) -->
-<div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title fw-bold" id="modal-product-title">Product Name</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-center">
-        <img id="modal-product-img" src="" alt="Product Image" class="img-fluid rounded mb-3" style="max-height: 220px;">
-        <h6 class="text-danger fw-bold" id="modal-product-price">Rs. 0</h6>
-        <p class="mt-2 text-muted" id="modal-product-desc">Description yahan aayegi...</p>
-        <div class="bg-light p-2 rounded text-start">
-          <strong>Ingredients / Details:</strong>
-          <p class="mb-0 small" id="modal-product-ingredients">Ingredients yahan aayenge...</p>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="app.js"></script>
 </body>
 </html>
