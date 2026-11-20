@@ -4,62 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BakerzBite</title>
-    <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-
-<!-- Aapki apni Custom CSS -->
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">BakerzBite</a>
+    <a class="navbar-brand fw-bold" href="#" data-target="home">BakerzBite</a>
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Merchandise</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Offers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Site Map</a>
-        </li>
+        <li class="nav-item"><a class="nav-link active" href="#" data-target="home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="merchandise">Merchandise</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="offers">Offers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="faqs">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="contact">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="sitemap">Site Map</a></li>
       </ul>
+      <span class="badge bg-warning text-dark ms-lg-3">Visitors: <span id="visitor-count">0</span></span>
     </div>
   </div>
 </nav>
 
-    <!-- 1. jQuery (hamesha sab se upar) -->
-<script src="assets/js/jquery.js"></script>
+<!-- Saare Pages (Sections) Ek Hi Jagah -->
+<main class="container my-4 pb-5">
+    <section id="home" class="page-section">
+        <h2>Welcome to BakerzBite</h2>
+        <p>Home section yahan aayega...</p>
+    </section>
 
-<!-- 2. Bootstrap JS -->
+    <section id="products" class="page-section d-none">
+        <h2>Our Bakery Products</h2>
+        <!-- Test Card (Check karne ke liye ke Pop-up khulta hai ya nahi) -->
+        <div class="card mt-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Chocolate Fudge Cake</h5>
+                <p class="card-text">Rs. 1500</p>
+                <button class="btn btn-danger view-product-btn" 
+                    data-name="Chocolate Fudge Cake" 
+                    data-price="Rs. 1500" 
+                    data-img="https://via.placeholder.com/300x200?text=Chocolate+Cake" 
+                    data-desc="Rich and moist dark chocolate cake." 
+                    data-ingredients="Real Butter, Unbleached Flour, Belgian Cocoa, Fresh Cream, Eggs.">
+                    View Details
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="merchandise" class="page-section d-none"><h2>Merchandise</h2><p>Mugs, Bags, Trays yahan aayenge...</p></section>
+    <section id="gallery" class="page-section d-none"><h2>Gallery</h2><p>Bandah 2 yahan tasveerein lagayega...</p></section>
+    <section id="offers" class="page-section d-none"><h2>Special Offers</h2><p>Discounts aur deals...</p></section>
+    <section id="about" class="page-section d-none"><h2>About Us</h2><p>Bandah 4 yahan text dalega...</p></section>
+    <section id="faqs" class="page-section d-none"><h2>FAQs</h2><p>Sawal jawab...</p></section>
+    <section id="contact" class="page-section d-none"><h2>Contact Us</h2><p>Pata, phone, aur feedback form...</p></section>
+    <section id="sitemap" class="page-section d-none"><h2>Site Map</h2><p>Website ke saare links...</p></section>
+</main>
+
+<!-- Neeche Chalne Wali Patti (Scrolling Ticker) -->
+<div class="bottom-ticker bg-dark text-white py-2 fixed-bottom">
+    <div class="ticker-text" id="ticker-content">
+        Loading Date, Time & Location...
+    </div>
+</div>
+
+<!-- Product Details Pop-up (Modal) -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="modal-product-title">Product Name</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modal-product-img" src="" alt="Product Image" class="img-fluid rounded mb-3" style="max-height: 220px;">
+        <h6 class="text-danger fw-bold" id="modal-product-price">Rs. 0</h6>
+        <p class="mt-2 text-muted" id="modal-product-desc">Description yahan aayegi...</p>
+        <div class="bg-light p-2 rounded text-start">
+          <strong>Ingredients / Details:</strong>
+          <p class="mb-0 small" id="modal-product-ingredients">Ingredients yahan aayenge...</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
-
-<!-- 3. Aapki apni Custom JS (root folder se) -->
 <script src="app.js"></script>
 </body>
 </html>
