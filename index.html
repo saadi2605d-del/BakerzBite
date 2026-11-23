@@ -1,238 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakerz Bite - Where smiles are served daily</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakerz Bite — premium handcrafted cakes, pastries, desserts and bakery treats in Karachi. Freshly baked with love and finished with a golden touch.">
+  <meta name="keywords" content="Bakerz Bite, bakery, cakes, pastries, desserts, cupcakes, donuts, cookies, Karachi bakery, custom cakes">
+  <meta name="author" content="Bakerz Bite">
+  <meta name="theme-color" content="#071a2b">
+  <meta property="og:title" content="Bakerz Bite | The Art of Baking">
+  <meta property="og:description" content="Discover handcrafted cakes, pastries and unforgettable flavours.">
+  <meta property="og:type" content="website">
+  <title>Bakerz Bite | The Art of Baking — Premium Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="preloader" id="preloader"><div class="loader-logo">B</div><span>BAKERZ BITE</span><div class="loader-line"><i></i></div></div>
+  <div class="announcement"><span>✦</span> FRESHLY BAKED EVERY DAY <b>•</b> MADE WITH LOVE <span>✦</span></div>
 
-    <!-- BANDAH 1: TOP HEADER WITH LOGO IMAGE & VISITOR COUNTER -->
-    <header class="bg-white border-bottom py-2">
-        <div class="container d-flex justify-content-between align-items-center">
-            <!-- Suitable Logo Image -->
-            <a class="navbar-brand d-flex align-items-center text-decoration-none nav-link p-0" href="#" data-target="home">
-                <img src="https://img.icons8.com/color/96/cupcake.png" alt="Bakerz Bite Logo" width="48" height="48" class="me-2">
-                <div>
-                    <span class="fs-4 fw-bold text-danger d-block lh-1">Bakerz Bite</span>
-                    <small class="text-muted" style="font-size: 11px;">Where smiles are served daily</small>
-                </div>
-            </a>
-
-            <!-- Visitor Counter beside Logo Image -->
-            <div class="d-flex align-items-center bg-danger text-white px-3 py-1 rounded-pill shadow-sm">
-                <small>👥 Visitors: <strong id="visitor-count">0</strong></small>
-            </div>
-        </div>
-    </header>
-
-    <!-- BANDAH 1: NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#" data-target="home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="products">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="merchandise">Merchandise</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="offers">Offers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="about">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="faqs">FAQs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="contact">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" data-target="sitemap">Site Map</a></li>
-                </ul>
-            </div>
-        </div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Bakerz Bite home">
+      <span class="brand-symbol">B</span><span class="brand-name">BAKERZ <b>BITE</b><small>THE ART OF BAKING</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="active">Home</a><a href="#story">Our Story</a><a href="#menu">Our Menu</a>
+      <a href="#signature">Signature</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
     </nav>
-
-    <!-- MAIN CONTENT AREA (SPA SECTIONS) -->
-    <main class="container my-4 pb-5">
-
-        <!-- 1. HOME SECTION WITH BANNER OF CAKES, PASTRIES, COOKIES (Bandah 1) -->
-        <section id="home" class="page-section">
-            <div id="heroBanner" class="carousel slide mb-4 rounded-3 overflow-hidden shadow" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#heroBanner" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&h=420&q=80" class="d-block w-100 banner-img" alt="Gourmet Cakes">
-                        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
-                            <h1 class="fw-bold">Welcome to Bakerz Bite</h1>
-                            <p>Where smiles are served daily! Fresh Cakes, Pastries & Cookies.</p>
-                            <button class="btn btn-danger nav-link d-inline-block text-white px-4" data-target="products">Explore Menu</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7?auto=format&fit=crop&w=1200&h=420&q=80" class="d-block w-100 banner-img" alt="Artisan Pastries">
-                        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
-                            <h2 class="fw-bold">Artisan Pastries & Cupcakes</h2>
-                            <p>Baked fresh in-store every morning with pure butter and cream.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=1200&h=420&q=80" class="d-block w-100 banner-img" alt="Crispy Cookies">
-                        <div class="carousel-caption bg-dark bg-opacity-50 rounded p-3">
-                            <h2 class="fw-bold">Warm Cookies & Biscuits</h2>
-                            <p>Made from real butter, cream, and unbleached flour.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#heroBanner" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#heroBanner" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </section>
-
-        <!-- 2. PRODUCTS SECTION (Bandah 3 Filters + Grid + Bandah 1 Modal Trigger) -->
-        <section id="products" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-3" style="color: #5c3a21;">🍰 Our Bakery Products</h2>
-
-            <!-- Category Filter Buttons (Bandah 3 will update Pies if needed) -->
-            <div class="filter-container">
-                <button class="filter-btn active" data-category="All">All (300)</button>
-                <button class="filter-btn" data-category="Cakes">Cakes</button>
-                <button class="filter-btn" data-category="Pastries & Cupcakes">Pastries & Cupcakes</button>
-                <button class="filter-btn" data-category="Breads & Buns">Breads & Buns</button>
-                <button class="filter-btn" data-category="Cookies & Biscuits">Cookies & Biscuits</button>
-                <button class="filter-btn" data-category="Donuts">Donuts</button>
-                <button class="filter-btn" data-category="Savory & Snacks">Savory & Snacks</button>
-            </div>
-
-            <!-- Products Grid -->
-            <div id="products-container">Loading products...</div>
-        </section>
-
-        <!-- 3. MERCHANDISE SECTION (Bandah 2 Placeholder) -->
-        <section id="merchandise" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">Bakerz Bite Merchandise</h2>
-            <p class="text-center text-muted">Branded Mugs, Bags, Glasses, and Trays will be added here by Bandah 2.</p>
-        </section>
-
-        <!-- 4. GALLERY SECTION (Bandah 2 Placeholder) -->
-        <section id="gallery" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">Our Gallery</h2>
-            <p class="text-center text-muted">Gallery images will be added here by Bandah 2.</p>
-        </section>
-
-        <!-- 5. OFFERS SECTION (Bandah 2 Placeholder) -->
-        <section id="offers" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">Special Offers</h2>
-            <p class="text-center text-muted">Store discounts and deals will be listed here by Bandah 2.</p>
-        </section>
-
-        <!-- 6. ABOUT US SECTION (Bandah 4 Placeholder) -->
-        <section id="about" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">About Bakerz Bite</h2>
-            <p class="text-center text-muted">About Us details (Email, Address, Contact) will be added here by Bandah 4.</p>
-        </section>
-
-        <!-- 7. FAQS SECTION (Bandah 4 Placeholder) -->
-        <section id="faqs" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
-            <p class="text-center text-muted">FAQs will be added here by Bandah 4.</p>
-        </section>
-
-        <!-- 8. CONTACT US & CUSTOMER FEEDBACK SECTION (Bandah 3 & 4) -->
-        <section id="contact" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-3">Contact Us & Feedback</h2>
-            <p class="text-center text-muted mb-4">Address: Main Tariq Road, Karachi | Email: info@bakerzbite.com | Phone: +92 300 1234567</p>
-
-            <!-- Bandah 3 Customer Feedback & Star Rating Form -->
-            <div class="feedback-section">
-                <h3 class="text-center mb-3" style="color: #5c3a21;">⭐ Customer Feedback & Rating</h3>
-                <form id="feedback-form">
-                    <div class="form-group">
-                        <label for="customer-name">Aapka Naam:</label>
-                        <input type="text" id="customer-name" placeholder="Apna naam likhein..." required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Rating Dein (Stars par click karein):</label>
-                        <div class="star-rating" id="star-container">
-                            <span class="star" data-value="1">★</span>
-                            <span class="star" data-value="2">★</span>
-                            <span class="star" data-value="3">★</span>
-                            <span class="star" data-value="4">★</span>
-                            <span class="star" data-value="5">★</span>
-                        </div>
-                        <input type="hidden" id="rating-value" value="0">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="customer-review">Aapki Raye (Feedback):</label>
-                        <textarea id="customer-review" rows="4" placeholder="Hamari bakery ke products ke baray mein apni raye likhein..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">Submit Feedback</button>
-                </form>
-            </div>
-
-            <!-- Submitted Reviews List -->
-            <div class="reviews-list" id="reviews-list">
-                <div class="review-item">
-                    <div class="review-header">
-                        <span>Ayesha Khan</span>
-                        <span class="review-stars">★★★★★</span>
-                    </div>
-                    <p style="margin:0; font-size:14px; color:#555;">Chocolate Fudge Cake bohot hi fresh aur mazedaar tha!</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 9. SITE MAP SECTION (Bandah 2 Placeholder) -->
-        <section id="sitemap" class="page-section d-none">
-            <h2 class="text-center fw-bold mb-4">Site Map</h2>
-            <p class="text-center text-muted">Site Map links will be added here by Bandah 2.</p>
-        </section>
-
-    </main>
-
-    <!-- PRODUCT POP-UP MODAL (Bandah 1) -->
-    <div class="modal fade" id="productModal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-danger text-white">
-                    <h5 class="modal-title" id="modal-product-title">Product Name</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body text-center">
-                    <img id="modal-product-img" src="" class="img-fluid rounded mb-3" style="max-height: 220px; object-fit: cover;" alt="Product Image">
-                    <h4 class="text-danger fw-bold" id="modal-product-price">Rs. 0</h4>
-                    <p id="modal-product-desc" class="text-muted"></p>
-                    <div class="alert alert-warning text-start mb-0">
-                        <strong>Detailed Specifications (Ingredients):</strong> <span id="modal-product-ingredients">Pure Butter, Unbleached Flour, Fresh Cream, Sugar</span>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
+    <div class="header-actions">
+      <button class="cart-trigger" id="cartOpen" aria-label="Open shopping cart">♧ <span>Cart</span><b id="cartCount">0</b></button>
+      <a class="header-order" href="#menu">Order Now <span>↗</span></a>
     </div>
+  </header>
 
-    <!-- BOTTOM SCROLLING TICKER (Bandah 1) -->
-    <footer class="bg-dark text-white py-2 fixed-bottom bottom-ticker">
-        <div class="ticker-text" id="ticker-content">
-            Loading date, time & location...
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i> THE PREMIUM BAKERY EXPERIENCE</div>
+        <p class="hero-overline">A TASTE OF PURE INDULGENCE</p>
+        <h1>Life is short.<br><em>Eat something</em><br>beautiful.</h1>
+        <p class="hero-description">Handcrafted cakes, golden pastries and unforgettable flavours. Every bite tells a story, every moment deserves a little sweetness.</p>
+        <div class="hero-buttons"><a class="btn btn-gold" href="#menu">Explore the menu <span>↗</span></a><a class="play-link" href="#story"><span class="play-icon">▶</span> Discover our story</a></div>
+        <div class="hero-trust"><div class="trust-avatars"><i>✦</i><i>✦</i><i>✦</i></div><div><b>Made fresh, made special</b><small>Quality ingredients · Signature recipes</small></div></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=90" alt="Bakerz Bite signature chocolate celebration cake"></div>
+        <div class="hero-image-border"></div>
+        <div class="round-seal"><span>BAKED WITH</span><b>LOVE</b><i>✦</i></div>
+        <div class="floating-note"><small>THE SIGNATURE</small><b>Velvet Dream Cake</b><span>Rich · Silky · Unforgettable</span></div>
+        <div class="hero-side-label">BAKERZ BITE — EST. WITH PASSION</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><span>SCROLL TO DISCOVER <i>↓</i></span><span>CRAFTED FOR YOUR CRAVINGS</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Our promise"><div class="ticker-track"><span>FRESHLY BAKED</span><i>✦</i><span>PREMIUM INGREDIENTS</span><i>✦</i><span>MADE WITH LOVE</span><i>✦</i><span>HAPPINESS IN EVERY BITE</span><i>✦</i><span>FRESHLY BAKED</span><i>✦</i><span>PREMIUM INGREDIENTS</span><i>✦</i><span>MADE WITH LOVE</span><i>✦</i><span>HAPPINESS IN EVERY BITE</span><i>✦</i></div></section>
+
+    <section class="intro section-pad" id="story">
+      <div class="section-label">01 — THE BAKERZ STORY</div>
+      <div class="intro-layout">
+        <div class="intro-heading"><span class="tiny-gold">A LITTLE MAGIC IN EVERY RECIPE</span><h2>Not just baked.<br><em>Thoughtfully</em> made.</h2><div class="decor-line"></div></div>
+        <div class="intro-copy"><p class="intro-lead">We believe the sweetest moments deserve something extraordinary.</p><p>At Bakerz Bite, baking is more than a craft — it is our love language. From carefully selected ingredients to the final golden finish, every creation is made to bring people together and make ordinary days feel special.</p><a class="under-link" href="#contact">More about Bakerz Bite <span>↗</span></a></div>
+      </div>
+      <div class="promise-grid">
+        <article><span class="promise-number">01</span><div class="promise-icon">✧</div><h3>Freshly Made</h3><p>Small-batch baking and fresh flavours throughout the day.</p></article>
+        <article><span class="promise-number">02</span><div class="promise-icon">♢</div><h3>Premium Quality</h3><p>Thoughtfully selected ingredients in every single bite.</p></article>
+        <article><span class="promise-number">03</span><div class="promise-icon">♡</div><h3>Made with Love</h3><p>Beautiful details that make your celebrations memorable.</p></article>
+        <article><span class="promise-number">04</span><div class="promise-icon">✦</div><h3>Pure Delight</h3><p>Signature recipes created for your sweetest cravings.</p></article>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-label">02 — EXPLORE OUR MENU</div>
+      <div class="section-heading"><div><span class="tiny-gold">A COLLECTION OF LITTLE JOYS</span><h2>Find your kind<br>of <em>sweetness.</em></h2></div><p>From celebration centrepieces to everyday treats, discover something deliciously made for you.</p></div>
+      <div class="category-tabs" id="categoryTabs">
+        <button class="category-tab active" data-category="all">All treats <span>12</span></button>
+        <button class="category-tab" data-category="cakes">Cakes</button>
+        <button class="category-tab" data-category="pastries">Pastries</button>
+        <button class="category-tab" data-category="desserts">Desserts</button>
+        <button class="category-tab" data-category="cookies">Cookies & more</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="cakes" data-name="Velvet Dream Cake" data-price="2800" data-image="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=85" alt="Velvet Dream Cake"><span class="product-badge">BESTSELLER</span><button class="quick-add" aria-label="Add Velvet Dream Cake to cart">+</button></div><div class="product-details"><div><h3>Velvet Dream Cake</h3><p>Rich chocolate · silky cream</p></div><strong>Rs. 2,800</strong></div></article>
+        <article class="product-card" data-category="pastries" data-name="Golden Cream Pastry" data-price="350" data-image="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85" alt="Golden Cream Pastry"><span class="product-badge">FRESH DAILY</span><button class="quick-add" aria-label="Add Golden Cream Pastry to cart">+</button></div><div class="product-details"><div><h3>Golden Cream Pastry</h3><p>Light sponge · vanilla cream</p></div><strong>Rs. 350</strong></div></article>
+        <article class="product-card" data-category="desserts" data-name="Chocolate Fudge Jar" data-price="550" data-image="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=85" alt="Chocolate fudge dessert"><button class="quick-add" aria-label="Add Chocolate Fudge Jar to cart">+</button></div><div class="product-details"><div><h3>Chocolate Fudge Jar</h3><p>Deep cocoa · fudge layers</p></div><strong>Rs. 550</strong></div></article>
+        <article class="product-card" data-category="cookies" data-name="Butter Bliss Cookies" data-price="650" data-image="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=85" alt="Freshly baked cookies"><button class="quick-add" aria-label="Add Butter Bliss Cookies to cart">+</button></div><div class="product-details"><div><h3>Butter Bliss Cookies</h3><p>Golden · crisp · buttery</p></div><strong>Rs. 650</strong></div></article>
+        <article class="product-card" data-category="cakes" data-name="Rose Gold Cupcakes" data-price="900" data-image="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=700&q=85" alt="Decorated cupcakes"><span class="product-badge">PARTY FAVOURITE</span><button class="quick-add" aria-label="Add Rose Gold Cupcakes to cart">+</button></div><div class="product-details"><div><h3>Rose Gold Cupcakes</h3><p>Fluffy sponge · whipped top</p></div><strong>Rs. 900</strong></div></article>
+        <article class="product-card" data-category="pastries" data-name="French Berry Tart" data-price="480" data-image="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=700&q=85" alt="French berry tart"><button class="quick-add" aria-label="Add French Berry Tart to cart">+</button></div><div class="product-details"><div><h3>French Berry Tart</h3><p>Buttery crust · fresh berries</p></div><strong>Rs. 480</strong></div></article>
+        <article class="product-card" data-category="desserts" data-name="Classic Tiramisu" data-price="700" data-image="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=85" alt="Classic tiramisu dessert"><span class="product-badge">CHEF'S PICK</span><button class="quick-add" aria-label="Add Classic Tiramisu to cart">+</button></div><div class="product-details"><div><h3>Classic Tiramisu</h3><p>Coffee notes · creamy layers</p></div><strong>Rs. 700</strong></div></article>
+        <article class="product-card" data-category="cookies" data-name="Choco Chunk Cookies" data-price="750" data-image="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=85" alt="Chocolate chunk cookies"><button class="quick-add" aria-label="Add Choco Chunk Cookies to cart">+</button></div><div class="product-details"><div><h3>Choco Chunk Cookies</h3><p>Soft centre · chocolate chunks</p></div><strong>Rs. 750</strong></div></article>
+        <article class="product-card" data-category="cakes" data-name="Midnight Mocha Cake" data-price="3200" data-image="https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=700&q=85" alt="Midnight mocha cake"><button class="quick-add" aria-label="Add Midnight Mocha Cake to cart">+</button></div><div class="product-details"><div><h3>Midnight Mocha Cake</h3><p>Espresso · dark chocolate</p></div><strong>Rs. 3,200</strong></div></article>
+        <article class="product-card" data-category="pastries" data-name="Pistachio Éclair" data-price="420" data-image="https://images.unsplash.com/photo-1551024506-0?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1551024506-0?auto=format&fit=crop&w=700&q=85" alt="Pistachio pastry"><button class="quick-add" aria-label="Add Pistachio Eclair to cart">+</button></div><div class="product-details"><div><h3>Pistachio Éclair</h3><p>Choux pastry · pistachio cream</p></div><strong>Rs. 420</strong></div></article>
+        <article class="product-card" data-category="desserts" data-name="Lotus Dessert Cup" data-price="600" data-image="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85" alt="Creamy dessert cup"><button class="quick-add" aria-label="Add Lotus Dessert Cup to cart">+</button></div><div class="product-details"><div><h3>Lotus Dessert Cup</h3><p>Caramel biscuit · smooth cream</p></div><strong>Rs. 600</strong></div></article>
+        <article class="product-card" data-category="cookies" data-name="Cinnamon Swirls" data-price="500" data-image="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=85"><div class="product-image"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=85" alt="Fresh cinnamon rolls"><button class="quick-add" aria-label="Add Cinnamon Swirls to cart">+</button></div><div class="product-details"><div><h3>Cinnamon Swirls</h3><p>Warm spice · buttery glaze</p></div><strong>Rs. 500</strong></div></article>
+      </div>
+      <p class="menu-disclaimer">* Product prices and availability are sample content. Please confirm your order with our team.</p>
+    </section>
+
+    <section class="signature" id="signature">
+      <div class="signature-photo"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=90" alt="Rich chocolate signature dessert"></div>
+      <div class="signature-content"><div class="section-label">03 — THE HOUSE SIGNATURE</div><span class="tiny-gold">FOR THE LOVE OF CHOCOLATE</span><h2>Meet your new<br><em>sweet obsession.</em></h2><p>Deep cocoa notes, soft layers and a silky finish. Our signature chocolate collection is made for those moments when only something extraordinary will do.</p><div class="signature-points"><span>✦ Premium cocoa</span><span>✦ Made fresh daily</span><span>✦ A little extra indulgence</span></div><a class="btn btn-outline" href="#menu">Explore chocolate treats <span>↗</span></a></div>
+    </section>
+
+    <section class="offer-section section-pad">
+      <div class="offer-box"><div class="offer-copy"><span class="tiny-gold">A LITTLE SOMETHING EXTRA</span><h2>Make every<br>moment <em>sweeter.</em></h2><p>Planning a birthday, a surprise or a simple get-together? Let us make the dessert table unforgettable.</p><a class="btn btn-gold" href="#contact">Plan your celebration <span>↗</span></a></div><div class="offer-art"><img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=850&q=85" alt="Beautiful decorated celebration cake"><div class="offer-stamp">YOUR<br><b>MOMENT</b><br>OUR MAGIC ✦</div></div></div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery">
+      <div class="section-label">04 — A FEAST FOR THE EYES</div><div class="section-heading"><div><span class="tiny-gold">FRESH FROM OUR WORLD</span><h2>Sweet little<br><em>moments.</em></h2></div><p>Every creation has its own personality. Here's a glimpse of the delicious details we love.</p></div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85" alt="Layered celebration cake"><span>Celebration cakes</span></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=700&q=85" alt="Fresh dessert"><span>Sweet delights</span></div>
+        <div class="gallery-item"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=700&q=85" alt="Fresh cookies"><span>Cookie moments</span></div>
+        <div class="gallery-item wide"><img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=900&q=85" alt="Beautiful bakery creation"><span>Made for celebrations</span></div>
+      </div>
+    </section>
+
+    <section class="reviews-section section-pad">
+      <div class="section-label">05 — KIND WORDS</div><div class="reviews-heading"><span class="tiny-gold">LOVE IS THE SECRET INGREDIENT</span><h2>Don't just take<br><em>our word for it.</em></h2><div class="review-arrows"><button id="reviewPrev" aria-label="Previous review">←</button><button id="reviewNext" aria-label="Next review">→</button></div></div>
+      <div class="review-window"><div class="review-track" id="reviewTrack">
+        <article class="review-card"><div class="stars">★★★★★</div><blockquote>“The cake looked absolutely stunning and tasted even better. Every detail felt so thoughtfully done.”</blockquote><div class="review-person"><span>AS</span><div><b>Ayesha S.</b><small>Celebration order</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><blockquote>“The pastries were fresh, soft and delicious. Definitely found my new favourite sweet spot.”</blockquote><div class="review-person"><span>HM</span><div><b>Hassan M.</b><small>Pastry lover</small></div></div></article>
+        <article class="review-card"><div class="stars">★★★★★</div><blockquote>“Beautiful presentation, lovely flavours and a premium feel. Perfect for a special occasion.”</blockquote><div class="review-person"><span>ZF</span><div><b>Zara F.</b><small>Custom cake order</small></div></div></article>
+      </div></div>
+      <p class="review-note">Sample testimonials for layout preview — replace with verified customer reviews.</p>
+    </section>
+
+    <section class="newsletter">
+      <div><span class="tiny-gold">A SWEET NOTE FROM US</span><h2>Stay in the <em>loop.</em></h2><p>Be the first to hear about fresh drops, seasonal treats and special offers.</p></div>
+      <form id="newsletterForm"><label class="sr-only" for="newsletterEmail">Email address</label><input type="email" id="newsletterEmail" placeholder="Your email address" required><button type="submit">Sign me up <span>↗</span></button><small id="newsletterStatus" aria-live="polite"></small></form>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="section-label">06 — LET'S MAKE IT SWEET</div><div class="contact-layout">
+        <div class="contact-copy"><span class="tiny-gold">WE'D LOVE TO HEAR FROM YOU</span><h2>Tell us what<br>you're <em>craving.</em></h2><p>Have a celebration coming up, need a custom cake or simply want to say hello? Send us a message and let's make something special.</p>
+          <div class="contact-detail"><span>✉</span><div><small>EMAIL US</small><b>hello@bakerzbite.com</b></div></div>
+          <div class="contact-detail"><span>⌖</span><div><small>FIND US</small><b>Karachi, Pakistan</b></div></div>
+          <div class="contact-detail"><span>◷</span><div><small>BAKING HOURS</small><b>Every day · 10 AM – 10 PM</b></div></div>
         </div>
-    </footer>
+        <form class="contact-form" id="contactForm"><div class="form-row"><label>Your name<input name="name" placeholder="Your full name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" required></label></div><label>What can we help you with?<select name="topic"><option>Custom cake order</option><option>Bakery products</option><option>Celebration / event</option><option>General enquiry</option></select></label><label>Your message<textarea name="message" rows="4" placeholder="Tell us a little about what you have in mind..." required></textarea></label><button class="btn btn-gold" type="submit">Send your enquiry <span>↗</span></button><p class="form-status" id="formStatus" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
 
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="app.js"></script>
+  <footer class="site-footer">
+    <div class="footer-main"><div class="footer-brand"><a class="brand" href="#top"><span class="brand-symbol">B</span><span class="brand-name">BAKERZ <b>BITE</b><small>THE ART OF BAKING</small></span></a><p>Little bites. Big happiness. Crafted with care and served with love.</p><div class="social-links"><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="TikTok">♪</a></div></div>
+      <div class="footer-column"><h4>EXPLORE</h4><a href="#story">Our story</a><a href="#menu">Our menu</a><a href="#signature">Our signature</a><a href="#gallery">Gallery</a></div>
+      <div class="footer-column"><h4>HELPFUL LINKS</h4><a href="#contact">Contact us</a><a href="#contact">Custom orders</a><a href="#contact">FAQs</a><a href="#contact">Delivery enquiries</a></div>
+      <div class="footer-column"><h4>GET IN TOUCH</h4><p>Karachi, Pakistan</p><p>hello@bakerzbite.com</p><p>10 AM – 10 PM · Daily</p></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> BAKERZ BITE. ALL RIGHTS RESERVED.</span><span>MADE WITH <i>♥</i> AND A LITTLE FLOUR.</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <a class="whatsapp-float" id="whatsappLink" href="#" target="_blank" rel="noopener" aria-label="Order on WhatsApp">☏<span>Order on WhatsApp</span></a>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-header"><div><span class="tiny-gold">YOUR LITTLE TREASURES</span><h3>Your Cart <b id="drawerCount">(0)</b></h3></div><button id="cartClose" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="cart-empty"><span>✧</span><h4>Your cart is waiting.</h4><p>Add a little sweetness to get started.</p></div></div>
+    <div class="cart-footer"><div class="cart-total"><span>Subtotal</span><b id="cartTotal">Rs. 0</b></div><p>Delivery charges, if any, will be confirmed with your order.</p><button class="btn btn-gold checkout-btn" id="checkoutBtn">Checkout via WhatsApp <span>↗</span></button></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Added to your cart ✦</div>
+  <script src="script.js"></script>
 </body>
 </html>
