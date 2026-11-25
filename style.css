@@ -433,3 +433,82 @@ a:hover { color: var(--bb-gold); }
     .carousel-caption h1 { font-size: 1.35rem; }
     .carousel-caption h2 { font-size: 1.15rem; }
 }
+
+
+/* ===== Refined Bakerz Bite palette: warm bakery ivory + deep navy + soft gold ===== */
+:root {
+  --bb-ink: #142b43;
+  --bb-blue: #203f5d;
+  --bb-gold: #c49a4a;
+  --bb-gold-pale: #ead8ad;
+  --bb-ivory: #fbf7ef;
+  --bb-paper: #fffdf8;
+  --bb-copy: #596574;
+}
+body { background: var(--bb-ivory) !important; color: var(--bb-ink) !important; }
+header.bg-white { background: var(--bb-paper) !important; border-bottom: 2px solid var(--bb-gold-pale) !important; }
+header .navbar-brand span, header .fs-4 { color: var(--bb-ink) !important; }
+header small, .text-muted { color: var(--bb-copy) !important; }
+header .rounded-pill { background: var(--bb-ink) !important; color: #fff !important; }
+.navbar, .navbar.bg-light, .navbar.navbar-light { background: var(--bb-ink) !important; border-bottom: 3px solid var(--bb-gold) !important; }
+.navbar-nav .nav-link { color: #fffaf0 !important; }
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus, .navbar-nav .nav-link.active { background: var(--bb-gold) !important; color: #182b3d !important; }
+main.container { color: var(--bb-ink) !important; }
+.page-section h1,.page-section h2,.page-section h3,.page-section h4,.page-section h5 { color: var(--bb-ink) !important; }
+.page-section p { color: var(--bb-copy) !important; }
+.carousel { box-shadow: 0 16px 38px rgba(20,43,67,.16) !important; }
+.carousel-caption { background: rgba(12,30,48,.76) !important; border: 1px solid rgba(234,216,173,.65) !important; }
+.carousel-caption h1,.carousel-caption h2,.carousel-caption p { color: #fffaf0 !important; }
+.btn-danger,button.btn-danger,.text-danger { background: var(--bb-gold) !important; border-color: var(--bb-gold) !important; color: #172b40 !important; }
+.btn-danger:hover,button.btn-danger:hover { background: #d6b36d !important; border-color: #d6b36d !important; }
+.filter-btn { background: #fffdf8 !important; color: var(--bb-ink) !important; border-color: var(--bb-gold) !important; }
+.filter-btn:hover,.filter-btn.active { background: var(--bb-ink) !important; color: #fff !important; border-color: var(--bb-ink) !important; }
+.bakery-card,.feedback-section,.review-item { background: var(--bb-paper) !important; border: 1px solid #e8dcc5 !important; box-shadow: 0 9px 24px rgba(20,43,67,.08) !important; color: var(--bb-ink) !important; }
+.bakery-card h5,.review-header,.form-group label { color: var(--bb-ink) !important; }
+.bakery-card p { color: var(--bb-copy) !important; }
+.bakery-category,.bakery-price,.review-stars { color: #a77b2f !important; }
+.form-group input,.form-group textarea { background: #fff !important; color: var(--bb-ink) !important; border-color: #d9c9a8 !important; }
+.submit-btn { background: var(--bb-ink) !important; color: #fff !important; }
+.submit-btn:hover { background: var(--bb-blue) !important; }
+.modal-content { background: var(--bb-paper) !important; color: var(--bb-ink) !important; border: 1px solid var(--bb-gold) !important; }
+.modal-title,.modal-content h1,.modal-content h2,.modal-content h3,.modal-content h4,.modal-content h5 { color: var(--bb-ink) !important; }
+.modal-content p,.modal-content .text-muted { color: var(--bb-copy) !important; }
+.modal-header.bg-danger { background: var(--bb-ink) !important; }
+.bottom-ticker { background: var(--bb-gold) !important; color: #172b40 !important; }
+.ticker-text { color: #172b40 !important; }
+footer,footer.bg-dark { background: var(--bb-ink) !important; color: #fffaf0 !important; border-top: 3px solid var(--bb-gold) !important; }
+a { color: var(--bb-blue); } a:hover { color: #9b712d; }
+
+/* Home page bakery showcase */
+.home-intro { background: linear-gradient(135deg,#fffdf8,#f2ead9); border: 1px solid #e9dcc2; border-radius: 18px; padding-left: 20px; padding-right: 20px; }
+.home-eyebrow { color: #a77b2f; font-size: .72rem; font-weight: 800; letter-spacing: .16em; }
+.home-intro h2,.home-featured h2,.home-baking-note h2 { color: var(--bb-ink); }
+.home-intro-copy { max-width: 690px; color: var(--bb-copy); }
+.home-highlights { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-top:28px; }
+.home-highlight { display:flex; flex-direction:column; align-items:center; gap:5px; padding:18px 10px; background:rgba(255,255,255,.8); border:1px solid #e8dcc5; border-radius:13px; }
+.home-highlight span { font-size:1.8rem; }
+.home-highlight strong { color:var(--bb-ink); font-size:.95rem; }
+.home-highlight small { color:var(--bb-copy); text-align:center; }
+.home-bake-card { height:100%; overflow:hidden; background:var(--bb-paper); border:1px solid #e8dcc5; border-radius:15px; box-shadow:0 8px 22px rgba(20,43,67,.08); transition:transform .25s ease,box-shadow .25s ease; }
+.home-bake-card:hover { transform:translateY(-5px); box-shadow:0 14px 28px rgba(20,43,67,.14); }
+.home-bake-card img { width:100%; height:190px; object-fit:cover; display:block; }
+.home-bake-card span { color:#a77b2f; font-size:.68rem; font-weight:800; letter-spacing:.13em; }
+.home-bake-card h3 { color:var(--bb-ink); font-size:1.15rem; font-weight:750; margin:7px 0; }
+.home-bake-card p { color:var(--bb-copy); font-size:.9rem; margin:0; line-height:1.55; }
+.home-outline-btn { border:1px solid var(--bb-gold); color:var(--bb-ink); font-weight:700; }
+.home-outline-btn:hover { background:var(--bb-ink); color:#fff; border-color:var(--bb-ink); }
+.home-baking-note { background:var(--bb-ink); color:#fffaf0; border-radius:18px; overflow:hidden; }
+.home-baking-note h2 { color:#fffaf0 !important; }
+.home-baking-note p { color:#e1e5e9 !important; line-height:1.8; }
+.home-baking-note .home-eyebrow { color:#e5c47e; }
+.home-baking-photo { width:100%; max-height:290px; object-fit:cover; border-radius:13px; border:3px solid rgba(234,216,173,.65); }
+@media(max-width:767.98px) {
+ .home-highlights { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .home-bake-card img { height:170px; }
+ .home-featured .d-flex { align-items:flex-start !important; }
+}
+@media(max-width:575.98px) {
+ .home-intro { padding:24px 14px !important; }
+ .home-intro h2 { font-size:1.65rem; }
+ .home-highlight { padding:14px 7px; }
+}
