@@ -15,17 +15,26 @@
     <header class="bg-white border-bottom py-2">
         <div class="container d-flex justify-content-between align-items-center">
             <!-- Suitable Logo Image -->
-            <a class="navbar-brand d-flex align-items-center text-decoration-none nav-link p-0" href="#" data-target="home">
-                <img src="https://img.icons8.com/color/96/cupcake.png" alt="Bakerz Bite Logo" width="48" height="48" class="me-2">
-                <div>
-                    <span class="fs-4 fw-bold text-danger d-block lh-1">Bakerz Bite</span>
-                    <small class="text-muted" style="font-size: 11px;">Where smiles are served daily</small>
-                </div>
+            <a class="navbar-brand brand-lockup d-flex align-items-center text-decoration-none nav-link p-0" href="#" data-target="home" aria-label="Bakerz Bite home">
+                <span class="brand-emblem me-3" aria-hidden="true">
+                    <svg viewBox="0 0 72 72" role="img">
+                        <path d="M17 38h38l-4 21H21z" fill="#f6e8c9" stroke="#c49a4a" stroke-width="2"/>
+                        <path d="M20 38c0-8 7-14 16-14s16 6 16 14" fill="#c49a4a"/>
+                        <path d="M36 8c-7 8-7 13 0 18 7-5 7-10 0-18z" fill="#fff8e9"/>
+                        <path d="M36 9v16" stroke="#17334e" stroke-width="1.5"/>
+                        <path d="M13 34c-5-8-1-15 8-16-1 8-3 13-8 16zm46 0c5-8 1-15-8-16 1 8 3 13 8 16z" fill="#d9b66c"/>
+                        <path d="M25 45h22M27 51h18" stroke="#17334e" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <span class="brand-copy">
+                    <span class="brand-name">Bakerz <b>Bite</b></span>
+                    <small>BAKED WITH LOVE • SERVED WITH JOY</small>
+                </span>
             </a>
-
-            <!-- Visitor Counter beside Logo Image -->
-            <div class="d-flex align-items-center bg-danger text-white px-3 py-1 rounded-pill shadow-sm">
-                <small>👥 Visitors: <strong id="visitor-count">0</strong></small>
+            <div class="visitor-panel">
+                <span class="visitor-icon" aria-hidden="true">↗</span>
+                <span class="visitor-copy"><small>YOUR VISITS</small><strong id="visitor-count">0</strong></span>
+                <span class="visitor-live"><i></i> ACTIVE</span>
             </div>
         </div>
     </header>
@@ -255,13 +264,34 @@
             </div>
         </div>
     </div>
-
-    <!-- BOTTOM SCROLLING TICKER (Bandah 1) -->
-    <footer class="bg-dark text-white py-2 fixed-bottom bottom-ticker">
-        <div class="ticker-text" id="ticker-content">
-            Loading date, time & location...
+    <footer class="site-footer">
+        <div class="container footer-main">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand"><span class="footer-brand-mark">B<span>.</span></span><div><strong>Bakerz Bite</strong><small>BAKED WITH LOVE</small></div></div>
+                    <p class="footer-about">Freshly baked happiness for every moment. From celebration cakes to everyday treats, there is always something delicious waiting for you.</p>
+                    <div class="footer-social"><span>Fresh • Handmade • Delicious</span></div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-3">
+                    <h5>Explore</h5>
+                    <a href="#" class="nav-link" data-target="home">Home</a><a href="#" class="nav-link" data-target="products">Our Products</a><a href="#" class="nav-link" data-target="gallery">Gallery</a><a href="#" class="nav-link" data-target="offers">Special Offers</a>
+                </div>
+                <div class="col-6 col-lg-2 col-md-3">
+                    <h5>Discover</h5>
+                    <a href="#" class="nav-link" data-target="about">About Us</a><a href="#" class="nav-link" data-target="merchandise">Merchandise</a><a href="#" class="nav-link" data-target="faqs">FAQs</a><a href="#" class="nav-link" data-target="sitemap">Site Map</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Come Say Hello</h5>
+                    <p class="footer-contact"><span>⌖</span> Main Tariq Road, Karachi, Pakistan</p>
+                    <p class="footer-contact"><span>✉</span> info@bakerzbite.com</p>
+                    <p class="footer-contact"><span>☎</span> +92 300 1234567</p>
+                    <a href="#" class="footer-contact-link nav-link" data-target="contact">Contact & Feedback →</a>
+                </div>
+            </div>
         </div>
+        <div class="footer-bottom"><div class="container d-flex flex-wrap justify-content-between align-items-center gap-2"><span>© <span id="footer-year"></span> Bakerz Bite. All rights reserved.</span><span>Made with <b>♥</b> for every sweet moment.</span></div></div>
     </footer>
+    <div class="bottom-ticker" role="status" aria-live="off"><div class="container ticker-inner"><span class="ticker-label"><i></i> BAKERZ BITE LIVE</span><div class="ticker-text" id="ticker-content">📅 Loading date &nbsp; | &nbsp; 🕒 Loading time &nbsp; | &nbsp; 📍 Karachi, Pakistan</div></div></div>
 
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
