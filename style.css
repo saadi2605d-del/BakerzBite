@@ -570,3 +570,58 @@ body { padding-bottom:0 !important; }
  .ticker-label { font-size:.56rem; }
  .ticker-text { font-size:.72rem; }
 }
+
+
+/* Banda 2: styling for existing Merchandise, Gallery and Offers sections */
+.bb-section-heading { padding: 24px 12px 10px; }
+.bb-section-heading h2 { color: #17334e; font-family: Georgia,serif; font-size: clamp(1.8rem,4vw,2.6rem); }
+.bb-section-heading p { color: #687684 !important; max-width: 650px; margin: 0 auto; }
+.bb-kicker { color:#ad853e; font-size:.68rem; font-weight:900; letter-spacing:.16em; }
+.bb-merch-card { height:100%; overflow:hidden; background:#fffdf8; border:1px solid #e8dcc5; border-radius:17px; box-shadow:0 9px 25px rgba(18,43,66,.09); transition:transform .25s,box-shadow .25s; }
+.bb-merch-card:hover { transform:translateY(-6px); box-shadow:0 16px 32px rgba(18,43,66,.15); }
+.bb-merch-card img { width:100%; height:225px; object-fit:cover; display:block; }
+.bb-merch-info { padding:22px; }
+.bb-merch-info h3 { color:#17334e; font-family:Georgia,serif; font-size:1.28rem; margin:8px 0; }
+.bb-merch-info p { color:#687684 !important; min-height:48px; line-height:1.6; }
+.bb-merch-info strong { color:#a77b2f; font-size:1.05rem; }
+.bb-collection-note { display:flex; align-items:center; justify-content:space-between; gap:22px; padding:28px 32px; border-radius:16px; background:#17334e; color:#fffaf0; }
+.bb-collection-note h3 { font-family:Georgia,serif; color:#fffaf0; margin:7px 0; }
+.bb-collection-note p { color:#d6dfe6 !important; }
+.bb-gold-btn { background:#c49a4a; color:#172e45; border:1px solid #c49a4a; font-weight:800; padding:10px 19px; }
+.bb-gold-btn:hover { background:#e0bd78; color:#172e45; border-color:#e0bd78; }
+.bb-gallery-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); grid-auto-rows:230px; gap:17px; }
+.bb-gallery-item { position:relative; overflow:hidden; margin:0; border-radius:15px; background:#17334e; box-shadow:0 8px 22px rgba(18,43,66,.12); }
+.bb-gallery-item.bb-gallery-tall { grid-row:span 2; }
+.bb-gallery-item img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s; }
+.bb-gallery-item:hover img { transform:scale(1.06); }
+.bb-gallery-item:after { content:""; position:absolute; inset:35% 0 0; background:linear-gradient(transparent,rgba(9,28,46,.88)); }
+.bb-gallery-item figcaption { position:absolute; z-index:1; left:20px; right:16px; bottom:17px; display:flex; flex-direction:column; gap:3px; color:#fff; }
+.bb-gallery-item figcaption strong { font-family:Georgia,serif; font-size:1.2rem; }
+.bb-gallery-item figcaption span { color:#f1dfb9; font-size:.82rem; }
+.bb-gallery-footnote { color:#687684; }
+.bb-offer-card { min-height:245px; display:flex; align-items:center; justify-content:space-between; gap:15px; padding:30px; border-radius:17px; overflow:hidden; color:#fffaf0; background:linear-gradient(135deg,#173b5a,#10283f); border:1px solid rgba(196,154,74,.65); box-shadow:0 10px 26px rgba(18,43,66,.12); }
+.bb-offer-featured { background:linear-gradient(120deg,#10283f,#1c4564); }
+.bb-offer-copy { max-width:390px; position:relative; z-index:1; }
+.bb-offer-tag { color:#e5c47e; font-size:.65rem; font-weight:900; letter-spacing:.13em; }
+.bb-offer-copy h3 { color:#fffaf0; font-family:Georgia,serif; font-size:1.65rem; margin:10px 0; }
+.bb-offer-copy p { color:#d7e0e7 !important; line-height:1.65; }
+.bb-offer-number { flex:0 0 auto; color:#e5c47e; font-family:Georgia,serif; font-size:5.2rem; font-weight:800; line-height:.8; text-align:center; }
+.bb-offer-number small { display:block; font-family:Arial,sans-serif; font-size:.8rem; letter-spacing:.12em; margin-top:12px; }
+.bb-offer-icon { flex:0 0 auto; font-size:4.7rem; filter:drop-shadow(0 8px 12px rgba(0,0,0,.2)); }
+.bb-outline-light { border:1px solid #e5c47e; color:#f7e8c5; font-weight:700; }
+.bb-outline-light:hover { background:#e5c47e; color:#17334e; }
+.bb-offer-disclaimer { color:#687684 !important; font-size:.82rem; }
+@media(max-width:767.98px) {
+ .bb-gallery-grid { grid-template-columns:repeat(2,minmax(0,1fr)); grid-auto-rows:190px; gap:12px; }
+ .bb-gallery-item.bb-gallery-tall { grid-row:span 1; }
+ .bb-collection-note { align-items:flex-start; flex-direction:column; padding:23px; }
+ .bb-offer-card { min-height:220px; padding:22px; }
+ .bb-offer-number { font-size:4rem; }
+ .bb-offer-icon { font-size:3.5rem; }
+}
+@media(max-width:420px) {
+ .bb-gallery-grid { grid-template-columns:1fr; grid-auto-rows:230px; }
+ .bb-offer-card { align-items:flex-start; }
+ .bb-offer-number { font-size:3.2rem; }
+ .bb-offer-icon { font-size:2.8rem; }
+}
