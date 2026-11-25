@@ -211,3 +211,225 @@ body {
 .review-stars {
     color: #f5b301;
 }
+
+/* =========================================================
+   BAKERZ BITE — NAVY BLUE & GOLD THEME
+   Theme-only update: existing HTML, JavaScript and features
+   are intentionally left unchanged.
+   ========================================================= */
+:root {
+    --bb-navy: #071a33;
+    --bb-navy-deep: #041225;
+    --bb-navy-soft: #102b4d;
+    --bb-gold: #d6ad55;
+    --bb-gold-light: #f0d58e;
+    --bb-cream: #f7f2e7;
+    --bb-text: #f7f2e7;
+    --bb-muted: #c4cbd5;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    background: var(--bb-navy-deep) !important;
+    color: var(--bb-text) !important;
+}
+
+header.bg-white {
+    background: linear-gradient(110deg, var(--bb-navy-deep), var(--bb-navy-soft)) !important;
+    border-bottom: 1px solid rgba(214,173,85,.55) !important;
+}
+
+header .navbar-brand span,
+header .fs-4 {
+    color: var(--bb-gold-light) !important;
+}
+
+header small,
+.text-muted {
+    color: var(--bb-muted) !important;
+}
+
+header .rounded-pill {
+    background: var(--bb-gold) !important;
+    color: var(--bb-navy-deep) !important;
+}
+
+.navbar,
+.navbar.bg-light,
+.navbar.navbar-light {
+    background: #0b2341 !important;
+    border-bottom: 1px solid rgba(214,173,85,.45);
+}
+
+.navbar-nav .nav-link {
+    color: var(--bb-cream) !important;
+    border-radius: 6px;
+    transition: color .25s ease, background .25s ease, transform .25s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: var(--bb-navy-deep) !important;
+    background: var(--bb-gold) !important;
+    transform: translateY(-1px);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--bb-navy-deep) !important;
+    background: var(--bb-gold) !important;
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    border-color: var(--bb-gold) !important;
+}
+.navbar-toggler-icon {
+    filter: invert(83%) sepia(34%) saturate(548%) hue-rotate(3deg) brightness(93%);
+}
+
+main.container { color: var(--bb-text); }
+
+.page-section h1,
+.page-section h2,
+.page-section h3,
+.page-section h4,
+.page-section h5 {
+    color: var(--bb-gold-light);
+}
+
+.page-section p { color: var(--bb-muted); }
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    border: 1px solid rgba(214,173,85,.4);
+    border-radius: 12px;
+}
+
+.carousel-caption {
+    background-color: rgba(4,18,37,.78) !important;
+    border: 1px solid rgba(214,173,85,.45);
+}
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption p { color: #fff8e8 !important; }
+
+.btn-danger,
+button.btn-danger,
+.text-danger {
+    background-color: var(--bb-gold) !important;
+    border-color: var(--bb-gold) !important;
+    color: var(--bb-navy-deep) !important;
+}
+.btn-danger:hover,
+button.btn-danger:hover {
+    background-color: var(--bb-gold-light) !important;
+    border-color: var(--bb-gold-light) !important;
+    color: var(--bb-navy-deep) !important;
+}
+
+.filter-btn {
+    background: var(--bb-navy-soft) !important;
+    border-color: var(--bb-gold) !important;
+    color: var(--bb-gold-light) !important;
+}
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--bb-gold) !important;
+    color: var(--bb-navy-deep) !important;
+}
+
+.bakery-card,
+.feedback-section,
+.review-item {
+    background: linear-gradient(155deg, #102b4d, #091d36) !important;
+    border: 1px solid rgba(214,173,85,.48) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 10px 26px rgba(0,0,0,.24) !important;
+    color: var(--bb-text) !important;
+}
+.bakery-card img {
+    border: 1px solid rgba(214,173,85,.35);
+}
+.bakery-card h5,
+.review-header,
+.form-group label {
+    color: var(--bb-gold-light) !important;
+}
+.bakery-card p { color: var(--bb-muted) !important; }
+.bakery-category,
+.bakery-price,
+.review-stars { color: var(--bb-gold) !important; }
+
+.feedback-section input,
+.feedback-section textarea,
+.form-group input,
+.form-group textarea {
+    background: #06172b !important;
+    border: 1px solid rgba(214,173,85,.55) !important;
+    color: #fff8e8 !important;
+}
+.feedback-section input::placeholder,
+.feedback-section textarea::placeholder,
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aab5c4 !important;
+}
+
+.submit-btn {
+    background: var(--bb-gold) !important;
+    color: var(--bb-navy-deep) !important;
+}
+.submit-btn:hover {
+    background: var(--bb-gold-light) !important;
+}
+
+.modal-content {
+    background: #0b2341 !important;
+    color: var(--bb-text) !important;
+    border: 1px solid var(--bb-gold) !important;
+}
+.modal-title,
+.modal-content h1,
+.modal-content h2,
+.modal-content h3,
+.modal-content h4,
+.modal-content h5 {
+    color: var(--bb-gold-light) !important;
+}
+.modal-content p,
+.modal-content .text-muted { color: var(--bb-muted) !important; }
+
+.bottom-ticker {
+    background: var(--bb-gold) !important;
+    color: var(--bb-navy-deep) !important;
+}
+.ticker-text { color: var(--bb-navy-deep) !important; }
+
+footer,
+footer.bg-dark {
+    background: var(--bb-navy-deep) !important;
+    color: var(--bb-cream) !important;
+    border-top: 1px solid rgba(214,173,85,.45);
+}
+
+a { color: var(--bb-gold-light); }
+a:hover { color: var(--bb-gold); }
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: #0b2341;
+        padding: 10px 14px;
+        border: 1px solid rgba(214,173,85,.35);
+        border-radius: 0 0 10px 10px;
+    }
+    .navbar-nav .nav-link { margin: 3px 0; }
+}
+
+@media (max-width: 575.98px) {
+    .banner-img { height: 280px; }
+    .carousel-caption { padding: 10px !important; }
+    .carousel-caption h1 { font-size: 1.35rem; }
+    .carousel-caption h2 { font-size: 1.15rem; }
+}
