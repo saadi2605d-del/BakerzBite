@@ -30,31 +30,41 @@ $(document).ready(function() {
     $('#visitor-count').text(visits);
 
 
-    // 3. BANDAH 1: BOTTOM TICKER (Live Date, Time & Geolocation)
-    let userLocation = "Fetching location...";
+    // 3. BANDAH 1: RELIABLE LIVE DATE, TIME & LOCATION TICKER
+    let userLocation = "Karachi, Pakistan";
+    const tickerTimeZone = "Asia/Karachi";
 
+    function updateBakerzTicker() {
+        const now = new Date();
+        const dateStr = new Intl.DateTimeFormat("en-PK", {
+            timeZone: tickerTimeZone, day: "2-digit", month: "short", year: "numeric"
+        }).format(now);
+        const timeStr = new Intl.DateTimeFormat("en-PK", {
+            timeZone: tickerTimeZone, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: true
+        }).format(now);
+        $("#ticker-content").text(`📅 Date: ${dateStr}   |   🕒 Pakistan Time: ${timeStr}   |   📍 Location: ${userLocation}   |   Welcome to Bakerz Bite — Where smiles are served daily!`);
+    }
+
+    // Update immediately, then keep the clock live every second.
+    updateBakerzTicker();
+    setInterval(updateBakerzTicker, 1000);
+
+    // Location permission is optional; the ticker works without it.
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             function(position) {
-                let lat = position.coords.latitude.toFixed(2);
-                let lon = position.coords.longitude.toFixed(2);
-                userLocation = `Lat: ${lat}, Lon: ${lon}`;
+                userLocation = `Your area (${position.coords.latitude.toFixed(2)}, ${position.coords.longitude.toFixed(2)})`;
+                updateBakerzTicker();
             },
             function() {
                 userLocation = "Karachi, Pakistan";
-            }
+                updateBakerzTicker();
+            },
+            { timeout: 5000, maximumAge: 300000 }
         );
-    } else {
-        userLocation = "Location not supported";
     }
 
-    setInterval(function() {
-        let now = new Date();
-        let dateStr = now.toLocaleDateString();
-        let timeStr = now.toLocaleTimeString();
-        $('#ticker-content').text(`📅 Date: ${dateStr}  |  ⏰ Time: ${timeStr}  |  📍 Location: ${userLocation}  |  Welcome to Bakerz Bite - Where smiles are served daily!`);
-    }, 1000);
-
+    $("#footer-year").text(new Date().getFullYear());
 
     // 4. DATA.JSON SE PRODUCTS LOAD KARNA & CATEGORY FILTER (Bandah 3)
     let allProducts = [];
